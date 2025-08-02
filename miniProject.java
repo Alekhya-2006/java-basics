@@ -6,11 +6,11 @@ public class miniProject {
         // My First project
         // Guess the number
         Scanner sc = new Scanner(System.in);
-        int myNumber = (int)(Math.random()*1000); // The random number is from 1- 1000
+        int myNumber = (int)(Math.random()*1000); // The random number is from 0- 1000
         int userNumber = 0;
 
         do {
-            System.out.println("Guess a number(1-1000): ");
+            System.out.println("Guess a number(0-1000): ");
             userNumber = sc.nextInt();
 
             if(userNumber == myNumber) {
@@ -30,4 +30,5 @@ public class miniProject {
 
     }
 }
+
 
